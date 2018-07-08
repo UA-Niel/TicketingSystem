@@ -5,7 +5,7 @@
     define('TIMEZONE', 'Europe/Brussels');
 
     //Mollie API
-    define('MOLLIE_KEY', 'test_pcTgsKs5WJWUnjj5eFzFV3RExrQKPH');
+    define('MOLLIE_KEY', 'API_KEY_EXAMPLE_fnwjfbewjbfewjwfwhfw');
     
     //Database
     define('DBHOST', 'localhost');
