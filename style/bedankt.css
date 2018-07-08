@@ -1,0 +1,12 @@
+.ndvibes {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ndvibes img {
+    max-width: 150px;
+}
+.ndvibes span {
+    text-align: left;
+    font-size: 14px;
+}

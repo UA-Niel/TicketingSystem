@@ -1,0 +1,192 @@
+/*fonts*/
+@font-face {
+    font-family: "Raleway Heavy";
+    src: url('fonts/raleway.heavy.ttf');
+}
+@font-face {
+    font-family: "Raleway Bold";
+    src: url('fonts/raleway.bold.ttf');
+}
+@font-face {
+    font-family: "Raleway Medium";
+    src: url('fonts/raleway.medium.ttf');
+}
+
+body {
+    background-color: #111111;
+    color: #FFFFFF;
+}
+img {max-width: 100%;}
+
+#content {
+    width: 98%;
+    max-width: 950px;
+    margin: auto;
+}
+#header {
+    margin-top: 7%;
+    text-align: center;
+}
+.container {
+    text-align: center;
+}
+h2 {
+    font-family: "Raleway Heavy";
+    letter-spacing: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.a-btn {
+    display: inline-block;
+    border: solid 3px #FFFFFF;
+    padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: "Raleway Bold";
+    cursor: pointer;
+}
+.a-btn:hover {
+    border-color: #FF3A00;
+    transition: all 0.5s ease; 
+}
+
+.form-wrapper {
+    width: 98%;
+    max-width: 500px;
+    margin: auto;
+    color: #000;
+    padding: 30px;
+    background-color: #FFFFFF;
+    text-align: left;
+    position: relative;
+    border-radius: 10px;
+    font-family: "Raleway Bold";
+}
+.form-wrapper label,
+.form-wrapper span {
+    color: #615760;
+    display: inline-block;
+}
+.form-wrapper label {
+    width: 150px;
+    margin-bottom: 10px;
+}
+.form-wrapper input[name="lastname"] {
+    position: absolute;
+    right: 30px;
+}
+.form-wrapper input[name="email"] {
+    width: 100%;
+}
+
+.form-wrapper a { 
+    color: #615760;
+    text-decoration: none;
+    font-size: 15px;
+} 
+.form-wrapper a:hover {
+    color: #FF6600;
+    transition: all 0.5s ease; 
+}
+
+input[type="text"],
+input[type="email"], 
+input[type="tel"], 
+textarea {
+    border: 0;
+    background-color: transparent;
+    border-bottom: solid 3px #FF6600;
+    font-size: 18px;
+    font-style: italic;
+    font-family: "Raleway Bold";
+    color: #615760;
+    padding: 3px;
+    padding-bottom: 3px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+}
+input[type="date"],
+input[name="coupon"] {
+    font-family: "Raleway Bold";
+    color: #615760;
+    background-color: transparent;
+    border: 0;
+    border: solid 2px #FF6600;
+    font-size: 14px;
+    font-style: normal;
+    width: 130px;
+    padding: 1px;
+}
+input[type="checkbox"]:checked {
+    color: #FF6600;
+}
+input[type="submit"] {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    font-family: "Raleway Bold";
+    font-size: 15px;
+    cursor: pointer;
+    color: #615760;
+    margin-right: 7px;
+}
+input[type="submit"]:hover {
+    color: #FF6600;
+    transition: all 1s ease;
+}
+
+.progress {
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.progress .bullet {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #A4A4A4;
+    margin-left: 5px;
+    border-radius: 100%;
+}
+.progress .colored {
+    background-color: #FF6600;
+}
+
+.form-text {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.error {
+    color: red;
+}
+
+/*Responsive*/
+@media screen and (max-width: 801px) {
+    .form-wrapper {
+        width: 95%;
+        padding: 10px;
+    }
+    .form-wrapper input[type='text'],
+    .form-wrapper input[type='mail'] {
+        display: block;
+        width: 100%;
+    }
+    .form-wrapper input[name="coupon"] {
+        display: inline;
+        width: 130px;
+    }
+    .form-wrapper input[name="lastname"] {
+        position: relative;
+        right: 0;
+    }
+    .form-wrapper br:not(".mobile") {
+        display: none;
+    }
+    .progress {
+        margin-top: 25px;
+    }
+}

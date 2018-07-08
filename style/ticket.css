@@ -1,0 +1,80 @@
+/*Ticket.php page*/
+.form-text a {
+    margin-right: 15px;
+}
+.ticket {
+    position: relative;
+    margin-top: 20px;
+}
+
+/*Styling for ticket*/
+.ticket {
+    position: relative;
+    display: inline-block;
+    width: 11cm;
+    height: 5cm;
+    background-color: rgb(32, 32, 32);
+    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
+   /* background-size: 10px 10px, 10px 10px, 10px 5px;*/
+  /*  background-position: 0px 0px, 5px 5px, 0px 0px;*/
+}
+.palmboom {
+    width: 5cm;
+    position: absolute;
+    bottom: 0.5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0.5;
+}
+.logo {
+    margin-top: 0.2cm;
+    width: 40%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.logo-text {
+    color: #FFFFFF;
+    font-size: 0.4cm;
+    text-align: center;
+    margin-top: -0.15cm;
+}
+.user-info {
+    position: absolute;
+    left: 0.2cm;
+    bottom: 0.2cm;
+}
+.user-info span {
+    color: #FFFFFF;
+}
+.user-info .age {
+    margin-left: 0.1cm;
+    font-weight: bold;
+}
+.qrcode {
+    width: 2.1cm;
+    position: absolute;
+    right: 0.2cm;
+    bottom: 0.2cm;
+}
+.ndvibes {
+    font-size: 14px;
+    color: #424242;
+    text-align: center;
+    position: absolute;
+    top: 0.2cm;
+    opacity: 0.6;
+}
+.left {
+    left: 0.2cm;
+}
+.right {
+    right: 0.2cm;
+}
+
+/*Responsive*/
+@media screen and (max-width: 801px) {
+    .ticket {
+        width: 99%;
+    }
+}

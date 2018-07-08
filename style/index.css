@@ -1,0 +1,39 @@
+body {
+    background-image: url('../images/background1.jpg');
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+.banner {
+    text-align: center; 
+}
+.form-wrapper {
+    display: none;
+}
+#koopNu-btn {
+   margin-top: 50px;
+   width: 190px;
+   background-color: rgba(0, 0, 0, 0.7);
+}
+#tos {
+    font-size: 14px;
+    position: relative;
+    top: -3px;
+    font-family: "Raleway Medium";
+}
+.price {
+    font-family: "Raleway Medium";
+    font-size: 20px;
+    margin-top: 7px;
+    height: 27px;
+    display: inline-block;
+}
+.progress {
+    display: none;
+}
+
+/*Responsive*/
+@media screen and (max-width: 801px) {
+    body {
+        background-image: none;
+    }
+}

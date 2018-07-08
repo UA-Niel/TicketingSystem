@@ -1,0 +1,61 @@
+    <!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style/general.css">
+        <link rel="stylesheet" type="text/css" href="style/print.css">
+    
+        
+    </head>
+    <body onload="printPage()">
+        <div id="wrapper">
+            <div id="content">
+                <div class="container">
+
+                    <h1 style="font-family: 'Raleway Bold';">Bal Tropical</h1>
+                    <h2>Voorverkoop Inkomkaarten</h2>
+
+                    <div class="form-wrapper">
+                        <div class="form-text">
+                            Uw ticket<br>
+                            <span>Druk uw ticket nu af, en knip het uit!</span>
+                            <span class="tip"><b>Tip:</b> Sommige browsers hebben geen ondersteunende afdruk-functie, dan is het handiger een screenshot te nemen, en deze af te drukken.</span><br><br><br><br>
+                            
+                            <div class="scissor-line">
+                                <div id="capture" class="ticket" style="position: relative;display: inline-block;width: 11cm;height: 5cm;background-image: url('https://ndvibes.com/demo/TicketSystem/images/mail_background.png');">
+                                   
+                                   
+                                   <br><br><br><br><br><br>
+                                   <div class="user-info" style="padding-left: 0.2cm; float: left; display:inline; ">
+                                        <span class="firstname" style="color:#FFFFFF;">%firstname%</span>
+                                        <span class="lastname" style="color:#FFFFFF;">%lastname%</span>
+                                        <br>
+                                        
+                                        <span class="birthdate" style="color:#FFFFFF;">%birthdate%</span>
+                                        <span class="age" style="color:#FFFFFF;font-weight:bold;">(%age%)</span>
+                                        <br>
+                                        
+                                        <span class="code" style="color:#FFFFFF;">%code%</span>
+                                    </div>
+                                    
+                                    <img class="qrcode" src="https://ndvibes.com/demo/TicketSystem/qrcodes/41_tr_WESm7bqxaB.png" style="float: right; width: 2cm;margin-right: 0.2cm;margin-top:-0.2cm;" />
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            showProgress(5,5);
+                        </script>
+                    </div>
+                    
+                    
+                    <br><br><br>
+                    <div class="ndvibes-wrapper">
+                        <img src="images/ndvibes.png" class="ndvibes-logo" style="max-width: 160px;" /><br>
+                        <span>Made by Niel Duysters</span>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="footer"></div>
+        </div>
+    </body>
+</html>
